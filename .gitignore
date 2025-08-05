@@ -1,23 +1,23 @@
-# === Rust ===
+# === Rust build artifacts ===
 /target/
 **/*.rs.bk
 
-# === Environment / Secrets ===
+# === Environment variables / Secrets ===
 .env
 
-# === VS Code ===
+# === VS Code configuration ===
 .vscode/settings.json
 .vscode/tasks.json
 .vscode/extensions.json
 
-# Conserve launch.json si tu veux partager la config debug
+# Keep launch.json if you want to share debugging setup
 # !.vscode/launch.json
 
-# === macOS / Windows / Linux système ===
+# === System files (macOS / Windows / Linux) ===
 .DS_Store
 Thumbs.db
 *.swp
 
-# === Node / JS (au cas où tu ajoutes du web) ===
+# === Node / JavaScript (in case frontend is added) ===
 node_modules/
 dist/

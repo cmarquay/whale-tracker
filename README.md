@@ -1,14 +1,15 @@
-# 🐋 Whale Tracker - Rust + Etherscan API
+# 🐋 Whale Tracker – Rust + Etherscan API
 
-Ce projet en Rust récupère les transactions de gros portefeuilles Ethereum ("whales") via l'API d’Etherscan, et analyse leur performance sur différentes périodes.
+This Rust project retrieves Ethereum whale wallet transactions using the Etherscan API and analyzes their performance over various time periods.
 
-## 🔧 Stack
+## 🔧 Tech Stack
+
 - Rust + Cargo
 - Etherscan API
 - VS Code + Rust Analyzer
-- `.env` pour les clés privées
+- `.env` file for managing API keys
 
-## 🚀 Lancer le projet
+## 🚀 Running the Project
 
 ```bash
 cargo run
